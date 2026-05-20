@@ -1,35 +1,30 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 nav {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
 }
-
+ 
 .nav-link {
   color: whitesmoke;
   margin-left: 15px;
 }
-
+ 
 .nav-link:hover {
   color: lightgray;
 }
-
+ 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  padding: 20px 0;
 }
-
+ 
 body {
   background-image: url(/Images/gael_art.jpg);
-  background-attachment: fixed;   /* This is the key property */
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -37,21 +32,34 @@ body {
   height: 100vh;
   margin: 0;
 }
-
-p{
-    color: whitesmoke;
-}
-
-a{
+ 
+h1 {
   color: whitesmoke;
 }
-
-a:hover{
+ 
+h2 {
+  color: whitesmoke;
+}
+ 
+h3 {
+  color: whitesmoke;
+}
+ 
+p {
+  color: whitesmoke;
+}
+ 
+a {
+  color: whitesmoke;
+}
+ 
+a:hover {
   color: lightgray;
 }
-
-.box{
-    width: 70%;
-    padding: 10px;
-    background-color:rgba(0, 0, 0, 0.3);
+ 
+.box {
+  width: 70%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.5cm;
 }
